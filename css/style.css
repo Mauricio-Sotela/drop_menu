@@ -154,7 +154,7 @@ html {
         top: 11em;
         left:15%;
         width: 100%;
-     
+   
       }
 .mmenu {
     display: none;
@@ -215,8 +215,10 @@ html {
     @media (max-width:650px){
         body{
             overflow: hidden;
+         
         }
         .container{
+           
             position: relative;          
             padding: 0;
             margin: 0;
@@ -237,7 +239,7 @@ html {
 
          
     }
-    @media (max-width:500px){
+    @media (max-width:400px){
         .active{
             left: 0;
         }
@@ -249,7 +251,12 @@ html {
         
             left: 45%;
        }
+       .fa-chevron-down{
+            display: none;
+        }
     }
+
+   
 
 
  
