@@ -62,7 +62,7 @@ html {
   /* nav logo */
     .logo{
         width: fit-content;
-        max-width: 10rem;
+        max-width: 16rem;
     }
     .logo img{
         width: 100%;
