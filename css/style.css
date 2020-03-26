@@ -80,6 +80,7 @@ html {
        margin: 0;
        padding: 0;
        position: relative;
+       
     }
     .main_menu>li{
         margin-left: 5rem;
@@ -87,8 +88,10 @@ html {
     }
    .main_menu>li:hover{
         border-bottom: rebeccapurple 4px solid;
+        transition: .3s ease-in-out;
     }
     .drop_menu{
+        
         display: none;
         padding: 0;
     }
@@ -98,22 +101,42 @@ html {
         width: 100%;
         height: 5rem;
         padding:  1rem;
+        
     }
     .drop_menu li:hover{
         background-color: rgba(131, 96, 195, 0.287);
+        transition: all .6s ease-in-out;
     }
 
-    .dm1{
+    .dm1,.dm2,.dm3{
         /* display: block; */
         width: 17rem;
         height: fit-content;
         position: absolute;
         top: 3rem;
         right: calc(100% - 12.2rem) ;
-        background-color: rgba(82, 165, 180, 0.603);
+        background-color: rgba(82, 165, 180, 0.575);
+    }
+
+    .dm2{
+        
+        position: absolute;
+        top: 3rem;
+        right: calc(100% - 26.3rem) ;
+    }
+    .dm3{
+       
+        position: absolute;
+        top: 3rem;
+        right: calc(100% - 39.8rem) ;
     }
 
     .main_menu>li:nth-child(1):hover .dm1{
         display: block;
-
+    }
+    .main_menu>li:nth-child(2):hover .dm2{
+        display: block;
+    }
+    .main_menu>li:nth-child(3):hover .dm3{
+        display: block;
     }
