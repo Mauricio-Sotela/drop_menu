@@ -1,0 +1,119 @@
+html {
+    font-size: 62.5%;
+    /** Reset  REMS  65,5% = 10px of 16px**/
+  }
+  
+  body {
+      box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Lato", sans-serif;
+    font-size: 1.6rem;
+    background: linear-gradient(to left, #2ebf91, #8360c3);
+    
+
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  /* Globals */
+  
+  .container {
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 3.8rem;
+  }
+  
+  h2 {
+    font-size: 3.4rem;
+  }
+  
+  h3 {
+    font-size: 3rem;
+  }
+  
+  h4 {
+    font-size: 2.6rem;
+  }
+  
+  a,ul{
+    
+      list-style: none;
+      text-decoration: none;
+      color: white;
+      cursor: pointer;
+  }
+
+  /* nav style */
+  nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      height: max-content;
+      padding: 1rem;
+  }
+  /* nav logo */
+    .logo{
+        width: fit-content;
+        max-width: 10rem;
+    }
+    .logo img{
+        width: 100%;
+    }
+    /* nav menu */
+    .menu{
+        width: fit-content;
+        height: 100%;
+    }
+    .menu .main_menu{
+        display: flex;
+       width: 100%;
+       text-transform: uppercase;
+       min-width: 15rem;
+       margin: 0;
+       padding: 0;
+       position: relative;
+    }
+    .main_menu>li{
+        margin-left: 5rem;
+        height: 3rem;
+    }
+   .main_menu>li:hover{
+        border-bottom: rebeccapurple 4px solid;
+    }
+    .drop_menu{
+        display: none;
+        padding: 0;
+    }
+    .drop_menu li{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 5rem;
+        padding:  1rem;
+    }
+    .drop_menu li:hover{
+        background-color: rgba(131, 96, 195, 0.287);
+    }
+
+    .dm1{
+        /* display: block; */
+        width: 17rem;
+        height: fit-content;
+        position: absolute;
+        top: 3rem;
+        right: calc(100% - 12.2rem) ;
+        background-color: rgba(82, 165, 180, 0.603);
+    }
+
+    .main_menu>li:nth-child(1):hover .dm1{
+        display: block;
+
+    }
