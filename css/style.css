@@ -105,11 +105,13 @@ html {
     }
     .drop_menu li:hover{
         background-color: rgba(131, 96, 195, 0.287);
-        transition: all .6s ease-in-out;
+        transition: all .5s ease-in-out;
+        transform: scaleX(1.1);
     }
 
     .dm1,.dm2,.dm3{
-        /* display: block; */
+
+        overflow: hidden;
         width: 17rem;
         height: fit-content;
         position: absolute;
