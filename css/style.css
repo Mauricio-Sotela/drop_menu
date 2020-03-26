@@ -230,6 +230,10 @@ html {
         .mmenu {
             display: flex;
           }
+          .dm3{
+        
+            left: 35%;
+       }
 
          
     }
